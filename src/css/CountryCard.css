@@ -1,0 +1,55 @@
+.country-card {
+  display: block;
+  padding: 1.25rem 1.5rem;
+  border-radius: 6px;
+  border: 1px solid #d8cfc2;
+  text-decoration: none;
+  color: inherit;
+  transition: transform 0.15s;
+}
+
+.country-card:hover {
+  transform: translateY(-3px);
+}
+
+.country-card h3 {
+  font-size: 1.2rem;
+  margin-bottom: 0.35rem;
+  color: #2a2a2a;
+}
+
+.country-card p {
+  color: #6b6056;
+  margin-bottom: 0.75rem;
+  font-size: 0.9rem;
+}
+
+.country-link {
+  color: #6b5344;
+  font-weight: 600;
+  font-size: 0.9rem;
+}
+
+.country-card.sand {
+  background-color: #f0e6d8;
+}
+
+.country-card.sage {
+  background-color: #dde8df;
+}
+
+.country-card.clay {
+  background-color: #e8ddd3;
+}
+
+.country-card.mist {
+  background-color: #dce4ea;
+}
+
+.country-card.wheat {
+  background-color: #ebe4cf;
+}
+
+.country-card.rose {
+  background-color: #ead9d4;
+}
