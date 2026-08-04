@@ -1,0 +1,88 @@
+.song-card {
+  border-radius: 6px;
+  overflow: hidden;
+  background-color: #ffffff;
+  border: 1px solid #d8cfc2;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.song-header {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  padding: 0.85rem 1rem;
+  background-color: #3d3630;
+}
+
+.song-position {
+  font-size: 1.3rem;
+  font-weight: 700;
+  color: #f6f2eb;
+}
+
+.song-change {
+  font-size: 0.95rem;
+  color: #c9bfb3;
+  flex: 1;
+}
+
+.favorite-btn {
+  color: #f6f2eb;
+  font-size: 1.3rem;
+  padding: 0.4rem;
+  background-color: transparent;
+  border-radius: 4px;
+  width: 36px;
+  height: 36px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid #6b6056;
+}
+
+.favorite-btn:hover {
+  background-color: #4a433c;
+}
+
+.favorite-btn.active {
+  color: #c45c4a;
+  border-color: #c45c4a;
+}
+
+.song-info {
+  padding: 1rem;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 0.35rem;
+}
+
+.song-info h3 {
+  font-size: 0.95rem;
+  margin: 0;
+  line-height: 1.4;
+  color: #2a2a2a;
+}
+
+.song-info p {
+  color: #7a6f63;
+  font-size: 0.85rem;
+}
+
+.song-peak {
+  color: #6b5344 !important;
+}
+
+.song-total {
+  color: #3d3630 !important;
+  font-weight: 600;
+  margin-top: auto;
+}
+
+@media (max-width: 768px) {
+  .song-info {
+    padding: 0.75rem;
+  }
+}
