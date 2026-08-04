@@ -1,0 +1,21 @@
+.main-content {
+  flex: 1;
+  padding: 2rem;
+  box-sizing: border-box;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.error-message {
+  text-align: center;
+  color: #a94432;
+  margin-bottom: 1rem;
+}
+
+.loading {
+  text-align: center;
+  color: #7a6f63;
+  font-size: 1.1rem;
+  padding: 2rem;
+}
