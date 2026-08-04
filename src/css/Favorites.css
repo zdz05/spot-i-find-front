@@ -1,0 +1,40 @@
+.favorites {
+  padding: 2rem;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.favorites h2 {
+  margin-bottom: 2rem;
+  text-align: center;
+  font-size: 2.2rem;
+  color: #3d3630;
+}
+
+.favorites-empty {
+  text-align: center;
+  padding: 4rem 2rem;
+  background-color: #ffffff;
+  border: 1px solid #d8cfc2;
+  border-radius: 6px;
+  margin: 2rem auto;
+  max-width: 600px;
+}
+
+.favorites-empty h2 {
+  margin-bottom: 1rem;
+  font-size: 1.8rem;
+  color: #3d3630;
+}
+
+.favorites-empty p {
+  color: #7a6f63;
+  font-size: 1.1rem;
+  line-height: 1.6;
+}
+
+.favorites .songs-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 1rem;
+}
