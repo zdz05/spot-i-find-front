@@ -1,0 +1,70 @@
+.country-chart {
+  padding: 2rem 0;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.back-link {
+  display: inline-block;
+  margin-bottom: 1.5rem;
+  margin-left: 1rem;
+  color: #6b5344;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.back-link:hover {
+  color: #4a3a30;
+}
+
+.country-chart .page-title {
+  text-align: center;
+  font-size: 2.2rem;
+  margin-bottom: 0.5rem;
+  color: #3d3630;
+}
+
+.country-chart .page-subtitle {
+  text-align: center;
+  color: #7a6f63;
+  margin-bottom: 2rem;
+}
+
+.country-chart .search-form {
+  max-width: 600px;
+  margin: 0 auto 2rem;
+  display: flex;
+  padding: 0 1rem;
+  box-sizing: border-box;
+}
+
+.country-chart .search-input {
+  flex: 1;
+  padding: 0.75rem 1rem;
+  border: 1px solid #d8cfc2;
+  border-radius: 6px;
+  background-color: #ffffff;
+  color: #2a2a2a;
+  font-size: 1rem;
+}
+
+.country-chart .search-input:focus {
+  outline: none;
+  border-color: #6b5344;
+}
+
+.country-chart .songs-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 1rem;
+  padding: 1rem;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.empty-chart {
+  text-align: center;
+  color: #7a6f63;
+  padding: 2rem;
+  font-size: 1.1rem;
+}
