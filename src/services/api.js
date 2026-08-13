@@ -1,4 +1,4 @@
-const API_BASE = "/api/v1/song";
+const API_BASE = `${import.meta.env.VITE_API_URL || ""}/api/v1/song`;
 
 export function countrySlugFromUrl(url) {
   const match = url.match(/country\/(.+)\.html$/);
